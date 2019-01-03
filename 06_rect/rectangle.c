@@ -31,7 +31,7 @@ rectangle canonicalize(rectangle r) {
         r.width *= -1;
     }
     if (r.height < 0) {
-        r.x += r.height;
+        r.y += r.height;
         r.height *= -1;
     }
     return r;
