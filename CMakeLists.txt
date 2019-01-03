@@ -3,4 +3,4 @@ project(untitled3 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled3 05_squares/squares.c)
+add_executable(untitled3 06_rect/rectangle.c)
