@@ -59,7 +59,9 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
     }
 }
 
+/*
 int main() {
-    squares(4, 1, 2, 3);
+    squares(5, 2, 4, 6);
     return 0;
 }
+*/
