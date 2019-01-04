@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-typedef struct {
+typedef struct _retire_info {
     int months;
     double contribution;
     double rate_of_return;
