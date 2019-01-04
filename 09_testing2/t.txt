@@ -1,26 +1,34 @@
 xxxxx
-xxxx
-xxx
-xx
-x
 xxxxx x
-xxxxx xx
-xxxxx xxx
-xxxxx xxxx
 xxxxx xxxxxx
 x xxxxx
-xx xxxxx
-xxx xxxxx
-xxxx xxxxx
 xxxxxx xxxxx
 xxxxx xxxxx xxxxx
-xxxxx xxxxx
-xxxxx aaaaa
-aaaaa xxxxx
 
+xxxxx xxxxx
+xxxxx xxxxa
+xxxxa xxxxx
+xxxxx xxxaa
+xxxaa xxxxx
+xxxxx xxaa$
+xxaa$ xxxxx
+xxxxx xa!$7
+xa!$7 xxxxx
+
+xxxxa axxxx
+xxxxa xxaxx
 xxxxa xxxxa
 xxxxa xxxx7
-xxxxa 7777a
-7x777 $$a$$
 xxxxa xxxaa
 xxxaa xxxxa
+xxxxa xxaa$
+xxaa$ xxxxa
+xxxxa xa!$7
+xa!$7 xxxxa
+
+xxxaa xxaa$
+xxaa$ xxxaa
+xxxaa xa!$7
+xa!$7 xxxaa
+
+xa!$7 xa!$7
