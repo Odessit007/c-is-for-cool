@@ -38,7 +38,7 @@ char value_letter(card_t c) {
     if (val <= 9) {
         return '0' + val;
     } else if (val == 10) {
-        return '0'
+        return '0';
     } else if (val == VALUE_JACK){
         return 'J';
     } else if (val == VALUE_QUEEN) {
