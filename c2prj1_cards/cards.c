@@ -28,27 +28,25 @@ const char *ranking_to_string(hand_ranking_t r) {
         return "two_pair";
     } else if (r == PAIR) {
         return "pair";
-    } else {   // r == NOTHING
-        return "nothing";
     }
+    return "nothing";   // r == NOTHING
 }
 
 
 char value_letter(card_t c) {
     int val = c.value;
-    if (c <= 9) {
-        return '0' + c;
-    } else if (c == 10) {
+    if (val <= 9) {
+        return '0' + val;
+    } else if (val == 10) {
         return '0'
-    } else if (c == VALUE_JACK){
+    } else if (val == VALUE_JACK){
         return 'J';
-    } else if (c == VALUE_QUEEN) {
+    } else if (val == VALUE_QUEEN) {
         return 'Q';
-    } else if (c == VALUE_KING) {
+    } else if (val == VALUE_KING) {
         return 'K';
-    } else {  // c == VALUE_ACE
-        return 'A';
     }
+    return 'A';   // val == VALUE_ACE
 }
 
 
@@ -60,9 +58,8 @@ char suit_letter(card_t c) {
         return 'h';
     } else if (suit == DIAMONDS) {
         return 'd';
-    } else {  // suit == CLUBS
-        return 'c';
     }
+    return 'c';   // suit == CLUBS
 }
 
 
