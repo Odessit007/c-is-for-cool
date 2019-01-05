@@ -12,24 +12,26 @@ void assert_card_valid(card_t c) {
 
 
 const char *ranking_to_string(hand_ranking_t r) {
-    if (r == STRAIGHT_FLUSH) {
-        return "straight_flush";
-    } else if (r == FOUR_OF_A_KIND) {
-        return "four_of_a_kind";
-    } else if (r == FULL_HOUSE) {
-        return "full_house";
-    } else if (r == FLUSH) {
-        return "flush";
-    } else if (r == STRAIGHT) {
-        return "straight";
-    } else if (r == THREE_OF_A_KIND) {
-        return "three_of_a_kind";
-    } else if (r == TWO_PAIR) {
-        return "two_pair";
-    } else if (r == PAIR) {
-        return "pair";
+    switch (r) {
+        case STRAIGHT_FLUSH:
+            return "STRAIGHT_FLUSH";
+        case FOUR_OF_A_KIND:
+            return "FOUR_OF_A_KIND";
+        case FULL_HOUSE:
+            return "FULL_HOUSE";
+        case FLUSH:
+            return "FLUSH";
+        case STRAIGHT:
+            return "STRAIGHT";
+        case THREE_OF_A_KIND:
+            return "THREE_OF_A_KIND";
+        case TWO_PAIR:
+            return "TWO_PAIR";
+        case PAIR:
+            return "PAIR";
+        default:
+            return "NOTHING";   // r == NOTHING
     }
-    return "nothing";   // r == NOTHING
 }
 
 
