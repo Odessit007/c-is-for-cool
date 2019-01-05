@@ -1,34 +1,9 @@
-Grading at Sat Jan  5 18:47:35 UTC 2019
+Grading at Sat Jan  5 18:51:09 UTC 2019
 Compiling cards.c
 cards.c: In function ‘value_letter’:
-cards.c:39:11: error: invalid operands to binary <= (have ‘card_t {aka struct card_tag}’ and ‘int’)
-     if (c <= 9) {
-           ^
-cards.c:40:20: error: invalid operands to binary + (have ‘int’ and ‘card_t {aka struct card_tag}’)
-         return '0' + c;
-                    ^
-cards.c:41:18: error: invalid operands to binary == (have ‘card_t {aka struct card_tag}’ and ‘int’)
-     } else if (c == 10) {
-                  ^
-cards.c:43:5: error: expected ‘;’ before ‘}’ token
-     } else if (c == VALUE_JACK){
+cards.c:42:5: error: expected ‘;’ before ‘}’ token
+     } else if (val == VALUE_JACK){
      ^
-cards.c:43:18: error: invalid operands to binary == (have ‘card_t {aka struct card_tag}’ and ‘int’)
-     } else if (c == VALUE_JACK){
-                  ^
-cards.c:45:18: error: invalid operands to binary == (have ‘card_t {aka struct card_tag}’ and ‘int’)
-     } else if (c == VALUE_QUEEN) {
-                  ^
-cards.c:47:18: error: invalid operands to binary == (have ‘card_t {aka struct card_tag}’ and ‘int’)
-     } else if (c == VALUE_KING) {
-                  ^
-cards.c:38:9: error: unused variable ‘val’ [-Werror=unused-variable]
-     int val = c.value;
-         ^
-cards.c:52:1: error: control reaches end of non-void function [-Werror=return-type]
- }
- ^
-cc1: all warnings being treated as errors
 Could not compile your card.c!
 
 Overall Grade: FAILED
